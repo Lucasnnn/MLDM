@@ -1,0 +1,896 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    z-index: 5;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    overflow-x: hidden;
+}
+
+#fundo{
+    position: absolute;
+    z-index: 0;
+}
+
+#fundo span{
+    position: relative;
+    font-size: 30vw;
+    opacity: 0.1;
+    letter-spacing: 0px;
+    color: rgb(125, 125, 125);
+    left: -35vw;
+    bottom: -5vw;
+}
+
+#circulo-esq{
+    position: relative;
+    top: 21vw;
+    left: 1vw;
+    width: auto;
+    height: 20vw;
+}
+
+#circulo-dir{
+    position: relative;
+    bottom: -49vw;
+    right: -46vw;
+    width: auto;
+    height: 20vw;
+}
+
+#pontilhado-dir{
+    position: relative;
+    right: -70vw;
+    top: -30vw;
+    width: auto;
+    height: 60vw;
+}
+
+#pontilhado-esq{
+    position: relative;
+    top: -30vw;
+    left: -60vw;
+    width: auto;
+    height: 60vw;
+}
+
+
+.menu-mobile{
+    display: none;
+}
+
+#inicio{
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inicio a{
+    display: flex;
+}
+
+#logo{
+    z-index: 7;
+}
+
+#logo img{
+   height: 3.5vw;
+}
+
+.saiba{
+    display: none;
+}
+
+.reset{
+    display: flex;
+    gap: 2vw;
+}
+
+#facebook{
+    display: none;
+}
+
+#icones{
+    z-index: 8;
+    font-size: 1vw;
+    letter-spacing: 1.68px;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    text-align: center;
+}
+
+#icones p{
+    color: hsl(342, 100%, 28%);
+}
+
+#icones img{
+    height: 1.3vw;
+}
+
+#telefones{
+    display: flex;
+    align-items: center;
+}
+
+#wpp {
+    display: inline-flex;
+    margin-inline: 4vw;
+    align-items: center;
+    gap: 6px;
+}
+
+#barra{
+    position: relative;
+    z-index: 7;
+    margin-inline: -20vw;
+    width: 200vw;
+    min-height: 1.2px;
+    height: 0.1vw;
+    background-color: hsla(0, 0%, 90%, 0.6);
+}
+/* _____________________BARRA_____________ */
+
+ul{
+    margin-inline: 0;
+    padding: 0;
+    margin-bottom: 7vw;
+}
+
+nav ul li{
+    z-index: 7;
+    letter-spacing: 0.6px;
+    font-size: 1vw;
+    color: hsl(342, 100%, 28%);
+}
+
+nav ul a{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul a li:hover{
+    color: hsla(54, 20%, 52%, 0.996);
+}
+
+.home{
+    font-weight: bold;
+}
+
+/* _______________MENU_________________ */
+
+#paragrafo-1 p{
+    margin: 0;
+    padding: 0;
+}
+
+#paragrafo-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+#para1-esq p{
+    margin-bottom: -2vw;
+}
+
+#texto1{
+    font-weight: 400;
+    font-size: 4vw;
+    letter-spacing: 0px;
+}
+
+#texto2{
+    font-weight: 600;
+    font-size: 4vw;
+    letter-spacing: 0px;
+    background: none;
+    color: #9C704B;
+}
+
+#traco{
+    margin: 4vw;
+    background-color: hwb(0 0% 100% / 0.373);
+    height: 0.1vw ;
+    width: 7vw;
+}
+
+#texto3{
+    font-size: 1.3vw;
+}
+
+#Adelete{
+    display: none;
+}
+
+/* ____________Paragrafo1_______________ */
+
+#ambientes{
+    width: 100vw;
+    margin-left: -9vw;
+    height: 25vw;
+    display: flex;
+    gap: 0.2vw;
+}
+
+.ambientes-expancao{
+    display: none;
+}
+
+#corporativo{
+    background: url(../MLDM/imagens/corporativo.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    letter-spacing: 7.2px;
+    color: #FFFFFF;
+}
+
+#corporativo img{
+  width: 3.5vw;
+  cursor: pointer;
+}
+
+
+#residencial{
+    background: url(../MLDM/imagens/residencial.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    letter-spacing: 7.2px;
+    color: #FFFFFF;
+}
+
+#residencial img{
+    width: 3.5vw;
+  cursor: pointer;
+}
+
+/* ________________Ambientes_____________ */
+
+#paragrafo-2{
+    z-index: 0;
+}
+
+#paragrafo-mobile{
+    display: none;
+ }
+ 
+#paragrafo{
+    text-align: center;
+    font-size: 1.5vw;
+    color: #4A4A4A;
+    margin: 6.5vw;
+}
+
+/* ______________Paragrafo-2______________ */
+
+
+.roleta{
+    display: absolute;
+    align-items: center;
+    width: 100%;
+    height: 28vw;
+}
+
+#carousel-1{
+    position: absolute;
+    width: 39vw;
+    height: 28vw;
+    display: flex;
+}
+
+#carousel-1 page div img{
+    background-color: #520018;
+    width: 33.4vw;
+    height: 21.9vw;
+}
+
+#carousel-1 page {
+    position: absolute;
+    transition: transform 0.5s;
+    transform: scale(0);
+    right: 0;
+}
+  
+.button{
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    align-self: flex-end;
+    left: 26.5vw;
+    z-index: 10;
+    bottom: 3vw;
+}
+  
+#cadeiras{
+    margin: 0;
+    position: relative;
+    color: hsl(0, 0%, 45%);
+    font-size: 1.1vw;
+    font-weight: 700;
+    align-self: flex-end;
+    left: 6vw;
+    bottom: 3vw;
+}
+  
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: #9C704B3B;
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50%;
+    margin: 0.3vw;
+}
+  
+input[type="radio"]:checked{
+    background-color: #9C704B;
+}
+  
+carousel #page1cb:checked ~ #page1 {
+    transform: scale(1);
+}
+carousel #page2cb:checked ~ #page2 {
+    transform: scale(1);
+}
+carousel #page3cb:checked ~ #page3 {
+    transform: scale(1);
+}
+
+#lateral-corpo{
+    position: absolute;
+    color: #520018;
+    font-size: 1.4vw;
+    font-weight: 500;
+    right: 29vw;
+    bottom: 10.5vw;
+    letter-spacing: 0.3vw;
+    transform: rotate(270deg);
+}
+
+#todos{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 6vw;
+}
+
+#todos img{
+   width: 2vw;
+}
+
+
+/* _____________Roleta-1________________ */
+
+#roleta-flex{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.roleta-2{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 28vw;
+}
+
+#carousel-2{
+    position: absolute;
+    width: 39vw;
+    height: 28vw;
+    display: flex;
+}
+
+#carousel-2 page div img{
+    background-color: #520018;
+    width: 33.4vw;
+    height: 21.9vw;
+}
+
+#carousel-2 page {
+    position: absolute;
+    transition: transform 0.5s;
+    transform: scale(0);
+    right: 0;
+}
+  
+.butto{
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    align-self: flex-end;
+    left: 22.2vw;
+    bottom: 3vw;
+}
+  
+#Apartamento{
+    margin: 0;
+    position: relative;
+    color: hsl(0, 0%, 45%);
+    font-size: 1.1vw;
+    font-weight: 700;
+    align-self: flex-end;
+    left: 6vw;
+    bottom: 3vw;
+}
+  
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: #9C704B3B;
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50%;
+    margin: 0.3vw;
+}
+  
+input[type="radio"]:checked{
+    background-color: #9C704B;
+}
+  
+carousel #pag1cb:checked ~ #pag1 {
+    transform: scale(1);
+}
+carousel #pag2cb:checked ~ #pag2 {
+    transform: scale(1);
+}
+carousel #pag3cb:checked ~ #pag3 {
+    transform: scale(1);
+}
+
+#lateral-resi{
+    position: absolute;
+    color: #520018;
+    font-size: 1.4vw;
+    font-weight: 500;
+    right: 29vw;
+    bottom: 10.5vw;
+    letter-spacing: 0.3vw;
+    transform: rotate(270deg);
+}
+
+#todos2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 6vw;
+}
+
+#todos2 img{
+    width: 2vw;
+}
+
+/* ______________Roleta-2_________________ */
+
+
+
+
+
+
+
+/* ______________Medias___________ */
+
+
+@media screen and (max-width: 800px ) {
+
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#fundo{
+    display: none;
+}
+
+#inicio{
+   height: 10vh;
+   display: flex;
+   justify-content: space-around;
+}
+
+#barra{
+    margin-bottom: 3vh;
+}
+
+#logo img{
+    height: 7vh;
+}
+
+#icones {
+    display: none;
+}
+
+.sumir{
+    display: none;
+}
+
+.menu-mobile{
+    display: block;
+}
+
+
+/* =======Menu============ */
+
+:root {
+    --cornerRad: 4px;
+}
+
+details {
+    margin: 40px;
+}
+
+summary {
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding: 12px 10px;
+    height: 7vh;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    transition: transform 200ms ease-in-out 0s;
+}
+
+summary::before, summary::after {
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+summary::before {
+    content: "";
+}
+
+summary::after {
+    content: "III";
+    font-size: 10vw;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+
+summary:hover {
+    transform: scale(1.1);
+}
+
+summary::marker {
+    font-size: 0;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] .menu {
+    animation-name: menuAnim;
+}
+
+details[open] summary::before {
+    content: "X";
+    font-size: 8vw;
+    font-weight: lighter;
+}
+
+details[open] summary::after {
+    content: "";
+}
+
+.menu {
+    font-size: 3vw;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+}
+
+#contatos-mobile{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+#contatos-mobile .edit{
+    margin: 0;
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border-radius: 1vw;
+    border: 0.2vw solid #0000006d;
+}
+  
+.menu a {
+    color: rgb(75, 0, 23);
+    padding: 12px 24px;
+    margin: 0 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: filter 200ms linear 0s;
+}
+
+.menu a:nth-of-type(1) {
+    padding-top: 24px;
+}
+
+.menu a:nth-last-of-type(1) {
+    border-bottom: none;
+}
+
+.menu a:hover {
+    filter: brightness(200%);
+}
+
+details::before {
+    position: absolute;
+    margin-left: 80px;
+    padding: 10px 10px;
+    opacity: 0.4;
+}
+  
+details[open]::before {
+    animation: fadeMe 300ms linear forwards;
+}
+
+@keyframes menuAnim {
+    0% {
+      height: 0;
+    }
+    100% {
+        
+      height: 312px;
+    }
+}
+
+@keyframes fadeMe {
+    0% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+/* ========Menu-fim=========== */
+
+
+
+#traco{
+    display: none;
+}
+
+ 
+#Atext{
+    display: none;
+}
+
+#Adelete{
+    display: inline-flex;
+}
+
+#texto1 , #texto2{
+    font-size: 3vh;
+}
+
+#paragrafo-1{
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#texto1{
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 4vh;
+}
+  
+#texto2{
+    margin: 0;
+    font-size: 5vh;
+    text-align: center;
+}
+  
+#para1-dir p{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+#ambientes{
+   z-index: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   margin-left: 0 ;
+   height: 60vh;
+}
+
+#corporativo{
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 2.5vh;
+  left:0;
+  top: 0;
+  font-weight: 300;
+  background: url(../MLDM/imagens/cima-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#corporativo img{
+    width: auto ;
+}
+
+#residencial{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    font-weight: 300;
+    background: url(../MLDM/imagens/baixo-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+#residencial img{
+      width: auto ;
+}
+
+#paragrafo-delete{
+    display: none;
+}
+
+#paragrafo-mobile{
+    display: inline;
+}
+
+#paragrafo{
+    margin: 0;
+    font-size: 3.5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+/* ============================================================ */
+
+#carousel-1{
+    width: 100%;
+}
+
+#carousel-1 page div img{
+      width: 100vw;
+      height: 100%;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: #9C704B3B;
+    width: 1.5vh;
+    height: 1.5vh;
+    border-radius: 50%;
+    margin: 0.3vh;
+}
+
+.button{
+    left: 15vw;
+    bottom: -30vw;
+}
+
+#lateral-corpo{
+    z-index: 4;
+    transform: rotate(0);
+    font-size: 4vw;
+    left: 0;
+    position: relative;
+}
+
+#cadeiras{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -45vw;
+    left: 1vw;
+}
+
+#todos{
+  bottom: -51vw;
+  font-size: 3vw;
+  margin-left: 1vh;
+  
+}
+
+#todos img{
+    width: 2vh;
+}
+
+
+/* ============================= */
+
+#roleta-flex{
+    margin-top: 80vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#carousel-2{
+    width: 100%;
+}
+
+#carousel-2 page div img{
+      width: 100vw;
+      height: 100%;
+}
+
+.butto{
+    z-index: 10;
+    left: 15vw;
+    bottom: -30vw;
+}
+
+#lateral-resi{
+    z-index: 4;
+    transform: rotate(0);
+    font-size: 4vw;
+    left: 0;
+    position: relative;
+}
+
+#Apartamento{
+    font-size: 3vw;
+    position: absolute;
+    bottom: -45vw;
+    left: 1vw;
+}
+
+#todos2{
+    bottom: -51vw;
+    font-size: 3vw;
+    margin-left: 1vh;
+    
+  
+}
+
+#todos2 img{
+    width: 2vh;
+}
+
+}
