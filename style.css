@@ -227,7 +227,7 @@ nav ul a li:hover{
 }
 
 #corporativo{
-    background: url(../MLDM/imagens/corporativo.png);
+    background: url(./imagens/corporativo.png);
     background-position: bottom left;
     background-repeat: no-repeat;
     width: 50%;
@@ -246,7 +246,7 @@ nav ul a li:hover{
 
 
 #residencial{
-    background: url(../MLDM/imagens/residencial.png);
+    background: url(./imagens/residencial.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     width: 50%;
@@ -748,7 +748,7 @@ details[open]::before {
   left:0;
   top: 0;
   font-weight: 300;
-  background: url(../MLDM/imagens/cima-mobile.jpg);
+  background: url(./imagens/cima-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -766,7 +766,7 @@ details[open]::before {
     justify-content: center;
     font-size: 2.5vh;
     font-weight: 300;
-    background: url(../MLDM/imagens/baixo-mobile.jpg);
+    background: url(./imagens/baixo-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

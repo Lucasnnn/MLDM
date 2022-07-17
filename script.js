@@ -21,11 +21,11 @@ function sobrepor(div) {
           if((div).includes('residencial')){
             saiba(1 , 'flex');
            document.getElementById(div).style.right = '0';
-           x[3].src ="../MLDM/imagens/x.png";
+           x[3].src ="./imagens/x.png";
           }else{
             saiba(0,'flex'); 
             br(ambientesexpancao , 'flex');
-             x[1].src = "../MLDM/imagens/x.png";
+             x[1].src = "./imagens/x.png";
             document.querySelector('#corporativo p').style = 'color : hsl(27, 37%, 66%); font-weight : 600 ;font-size : 1.5vw;'
         }
 
@@ -52,8 +52,8 @@ function sobrepor(div) {
         cores(menu , 'hsl(342, 100%, 28%)')
         saiba(0 , 'none')
         saiba(1 , 'none')
-        x[3].src ="../MLDM/imagens/+.png"
-        x[1].src ="../MLDM/imagens/+.png"
+        x[3].src ="./imagens/+.png"
+        x[1].src ="./imagens/+.png"
         br(brs, 'flex')
         br(ambientesexpancao , 'none');
         document.querySelector('#corporativo p').style = 'color : white;font-size: 1.5vw;letter-spacing: 7.2px;'
