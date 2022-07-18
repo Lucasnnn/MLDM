@@ -728,6 +728,9 @@ details[open]::before {
     font-size: 3vh;
 }
 
+#ambientes img {display : none;}
+
+
 #ambientes{
    z-index: 0;
    display: flex;
