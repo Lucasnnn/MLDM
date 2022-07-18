@@ -757,7 +757,7 @@ details[open]::before {
 }
 
 #corporativo img{
-    width: auto ;
+   display : none;
 }
 
 #residencial{
@@ -775,7 +775,7 @@ details[open]::before {
 }
   
 #residencial img{
-      width: auto ;
+    display : none;
 }
 
 #paragrafo-delete{
